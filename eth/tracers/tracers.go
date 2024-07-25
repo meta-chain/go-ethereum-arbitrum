@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/meta-chain/go-ethereum-arbitrum/common"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/vm"
 )
 
 // Context contains some contextual infos for a transaction execution that is not

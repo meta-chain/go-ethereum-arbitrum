@@ -21,10 +21,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/holiman/uint256"
+	"github.com/meta-chain/go-ethereum-arbitrum/common"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/types"
+	"github.com/meta-chain/go-ethereum-arbitrum/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

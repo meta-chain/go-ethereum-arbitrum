@@ -21,10 +21,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/meta-chain/go-ethereum-arbitrum/common"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/vm"
+	"github.com/meta-chain/go-ethereum-arbitrum/eth/tracers"
+	"github.com/meta-chain/go-ethereum-arbitrum/log"
 )
 
 // traceWriter is an vm.EVMLogger which also holds an inner logger/tracer.

@@ -24,13 +24,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/meta-chain/go-ethereum-arbitrum"
+	"github.com/meta-chain/go-ethereum-arbitrum/accounts/abi"
+	"github.com/meta-chain/go-ethereum-arbitrum/common"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/types"
+	"github.com/meta-chain/go-ethereum-arbitrum/crypto"
+	"github.com/meta-chain/go-ethereum-arbitrum/event"
+	"github.com/meta-chain/go-ethereum-arbitrum/rpc"
 )
 
 const basefeeWiggleMultiplier = 2

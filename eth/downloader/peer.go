@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/msgrate"
+	"github.com/meta-chain/go-ethereum-arbitrum/common"
+	"github.com/meta-chain/go-ethereum-arbitrum/eth/protocols/eth"
+	"github.com/meta-chain/go-ethereum-arbitrum/event"
+	"github.com/meta-chain/go-ethereum-arbitrum/log"
+	"github.com/meta-chain/go-ethereum-arbitrum/p2p/msgrate"
 )
 
 const (

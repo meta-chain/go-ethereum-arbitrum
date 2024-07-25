@@ -25,11 +25,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/meta-chain/go-ethereum-arbitrum/common"
+	"github.com/meta-chain/go-ethereum-arbitrum/crypto"
+	"github.com/meta-chain/go-ethereum-arbitrum/log"
+	"github.com/meta-chain/go-ethereum-arbitrum/p2p"
+	"github.com/meta-chain/go-ethereum-arbitrum/rpc"
 )
 
 const (

@@ -23,13 +23,13 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/meta-chain/go-ethereum-arbitrum/common"
+	"github.com/meta-chain/go-ethereum-arbitrum/core"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/state"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/types"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/vm"
+	"github.com/meta-chain/go-ethereum-arbitrum/log"
+	"github.com/meta-chain/go-ethereum-arbitrum/params"
 )
 
 // EstimateGasErrorRatio is the amount of overestimation eth_estimateGas is

@@ -3,18 +3,18 @@ package arbitrum
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/arbitrum_types"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/shutdowncheck"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/meta-chain/go-ethereum-arbitrum/accounts"
+	"github.com/meta-chain/go-ethereum-arbitrum/arbitrum_types"
+	"github.com/meta-chain/go-ethereum-arbitrum/consensus"
+	"github.com/meta-chain/go-ethereum-arbitrum/core"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/bloombits"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/types"
+	"github.com/meta-chain/go-ethereum-arbitrum/eth/filters"
+	"github.com/meta-chain/go-ethereum-arbitrum/ethdb"
+	"github.com/meta-chain/go-ethereum-arbitrum/event"
+	"github.com/meta-chain/go-ethereum-arbitrum/internal/shutdowncheck"
+	"github.com/meta-chain/go-ethereum-arbitrum/node"
+	"github.com/meta-chain/go-ethereum-arbitrum/rpc"
 )
 
 type Backend struct {

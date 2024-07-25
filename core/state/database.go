@@ -21,16 +21,16 @@ import (
 	"fmt"
 
 	"github.com/crate-crypto/go-ipa/banderwagon"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/utils"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/meta-chain/go-ethereum-arbitrum/common"
+	"github.com/meta-chain/go-ethereum-arbitrum/common/lru"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/rawdb"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/types"
+	"github.com/meta-chain/go-ethereum-arbitrum/crypto"
+	"github.com/meta-chain/go-ethereum-arbitrum/ethdb"
+	"github.com/meta-chain/go-ethereum-arbitrum/trie"
+	"github.com/meta-chain/go-ethereum-arbitrum/trie/trienode"
+	"github.com/meta-chain/go-ethereum-arbitrum/trie/utils"
+	"github.com/meta-chain/go-ethereum-arbitrum/triedb"
 )
 
 const (

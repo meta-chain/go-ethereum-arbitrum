@@ -30,13 +30,13 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/internal/jsre/deps"
-	"github.com/ethereum/go-ethereum/internal/web3ext"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/mattn/go-colorable"
+	"github.com/meta-chain/go-ethereum-arbitrum/console/prompt"
+	"github.com/meta-chain/go-ethereum-arbitrum/internal/jsre"
+	"github.com/meta-chain/go-ethereum-arbitrum/internal/jsre/deps"
+	"github.com/meta-chain/go-ethereum-arbitrum/internal/web3ext"
+	"github.com/meta-chain/go-ethereum-arbitrum/log"
+	"github.com/meta-chain/go-ethereum-arbitrum/rpc"
 	"github.com/peterh/liner"
 )
 

@@ -20,11 +20,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/meta-chain/go-ethereum-arbitrum/consensus"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/state"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/types"
+	"github.com/meta-chain/go-ethereum-arbitrum/params"
+	"github.com/meta-chain/go-ethereum-arbitrum/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

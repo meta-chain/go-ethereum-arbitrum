@@ -21,13 +21,13 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	cmath "github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/meta-chain/go-ethereum-arbitrum/common"
+	cmath "github.com/meta-chain/go-ethereum-arbitrum/common/math"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/types"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/vm"
+	"github.com/meta-chain/go-ethereum-arbitrum/crypto/kzg4844"
+	"github.com/meta-chain/go-ethereum-arbitrum/params"
 )
 
 // ExecutionResult includes all output after executing given evm

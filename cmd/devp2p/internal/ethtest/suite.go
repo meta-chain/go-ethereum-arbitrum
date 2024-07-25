@@ -21,16 +21,16 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/holiman/uint256"
+	"github.com/meta-chain/go-ethereum-arbitrum/common"
+	"github.com/meta-chain/go-ethereum-arbitrum/consensus/misc/eip4844"
+	"github.com/meta-chain/go-ethereum-arbitrum/core/types"
+	"github.com/meta-chain/go-ethereum-arbitrum/crypto"
+	"github.com/meta-chain/go-ethereum-arbitrum/crypto/kzg4844"
+	"github.com/meta-chain/go-ethereum-arbitrum/eth/protocols/eth"
+	"github.com/meta-chain/go-ethereum-arbitrum/internal/utesting"
+	"github.com/meta-chain/go-ethereum-arbitrum/p2p"
+	"github.com/meta-chain/go-ethereum-arbitrum/p2p/enode"
 )
 
 // Suite represents a structure used to test a node's conformance
